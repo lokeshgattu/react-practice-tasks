@@ -7,9 +7,6 @@ const hocComponentWithHoc = (InputComponent) => {
       this.state = {
         result: [],
         search: "",
-        title: "",
-        url: "",
-        author: "",
       };
     }
     componentDidMount() {
@@ -26,27 +23,13 @@ const hocComponentWithHoc = (InputComponent) => {
       axios
         .get(`https://hn.algolia.com/api/v1/search?query=${this.state.search}`)
         .then((res) => {
-          res.data.hits.map((item) => {
-            const hasTitle = "title" in item;
-            const hasUrl = "url" in item;
-            if (hasTitle && hasUrl) {
-              this.setState({
-                title: item.title,
-                url: item.url,
-                author: item.author,
-              });
-            } else {
-              this.setState({
-                title: item.story_title,
-                url: item.story_url,
-                author: item.author,
-              });
-            }
-          });
-          // const temp=res.data.hits
-          // const data=temp.filter((item)=>item.title!=="" && item.url!=="")
-          // console.log(data)
-          // this.setState({result: data})
+          //Conditional logic seeking for objects which doesn't have empty titles and empty urls//
+          // const temp = res.data.hits;
+          // const data = temp.filter((item) =>
+          //     (item.title !== "" || item.story_title !== "") &&
+          //     (item.url !== "" || item.story_url !== "")
+          // );
+          this.setState({ result: res.data.hits });
         })
         .catch((err) => console.log(err));
     };
@@ -54,9 +37,7 @@ const hocComponentWithHoc = (InputComponent) => {
       return (
         <>
           <InputComponent
-            title={this.state.title}
-            url={this.state.url}
-            author={this.state.author}
+            result={this.state.result}
             userInput={(e) => this.userInput(e)}
             handleSearch={(e) => this.handleSearch(e)}
           ></InputComponent>
