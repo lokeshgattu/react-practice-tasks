@@ -29,7 +29,7 @@ class BlogSearch extends Component {
     //const {userInput,handleSearch,result}=this.props
     return (
       <div>
-        <h1>search anything at anytime at search bar</h1>
+        <h1>search anything at anytime at search</h1>
         <div>
           <input type="text" onChange={(e) => this.userInput(e)} />
           <button onClick={(e) => this.handleSearch(e)}>search</button>
