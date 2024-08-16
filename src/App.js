@@ -46,9 +46,9 @@ function App() {
       {/* <SimpleAPICall></SimpleAPICall> */}
       {/* <LCMAPICall></LCMAPICall> */}
       {/* <ImageSearchAPI></ImageSearchAPI> */}
-      {/* <ContactManager></ContactManager> */}
+      <ContactManager></ContactManager>
       {/* <BlogSearch></BlogSearch> */}
-      <BlogSearchUIcomponent></BlogSearchUIcomponent>
+      {/* <BlogSearchUIcomponent></BlogSearchUIcomponent> */}
     </>
   );
 }
