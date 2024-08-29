@@ -1,4 +1,4 @@
-import "./index.css";
+import "./BlogSearch.css";
 import { Component } from "react";
 import hocComponentWithHoc from "./hocComponentWithHoc";
 class BlogSearchUIcomponent extends Component {
@@ -48,8 +48,10 @@ class BlogSearchUIcomponent extends Component {
               className="blogs-container"
               key={item.objectID || item.story_id}
             >
-              <h1 className="head">Author: {item.author}</h1>
-              <h1 className="text">Title: {item.title || item.story_title}</h1>
+              <h1 className="heading">Author: {item.author}</h1>
+              <h1 className="texting">
+                Title: {item.title || item.story_title}
+              </h1>
               <a href={item.url || item.story_url} target="_blank">
                 Click For More Details
               </a>

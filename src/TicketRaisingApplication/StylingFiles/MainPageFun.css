@@ -1,0 +1,45 @@
+body{
+    background-color: #00aeff;
+}
+#text-heading{
+    color: black;
+    width: 420px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: aquamarine;
+}
+.btn-container{
+    display: flex;
+    width: 290px;
+    margin: 80px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+#user-btn button{
+    background-color: rgb(193, 70, 193);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+#admin-btn button{
+    background-color: #04AA6D;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.question-heading{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.textone{
+    padding-left: 30px;
+    background-color: orange;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 40px;
+}

@@ -1,0 +1,99 @@
+.ticketsback{
+    background-image: url("https://i.pinimg.com/originals/bf/5e/9a/bf5e9ac1323e5b49a621ee28a702765c.jpg");
+    background-size: cover;
+    /* background-color: blue; */
+    height:auto;
+    width:auto;
+    padding:30px;
+}
+
+.opentickets{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tickets{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to top, orange, green);
+    border-radius: 5px;
+    height:330px;
+    box-shadow: 0px 4px 16px 0px;
+    text-align: center;
+    margin: 10px;
+    width: 350px;
+}
+
+.aftertickets{
+    /* margin-top: 50px;
+    margin-bottom: 150px; */
+    padding:10px;
+    padding-bottom:300px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    height:330px;
+    box-shadow: 0px 4px 16px 0px;
+    text-align: center;
+    margin: 10px;
+    width: 350px;
+}
+
+.adminback{
+    margin:30px;
+    height: 40px;
+    margin-right: 50px;
+    width:250px;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color:brown;
+}
+
+.adminback:hover{
+    background-color: yellowgreen;
+    transform: scale(1.1,1.1);
+}
+.backbutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.adminsolve{
+    margin-top: 25px;
+    height: 30px;
+    width:100px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+    background-color: light yellow;
+}
+
+.adminsolve:hover{
+    background-color: yellowgreen;
+    transform: scale(1.1,1.1);
+}
+
+.ticketdata{
+    color:#01211d;
+    font-weight: bolder;
+}
+
+.opensolve{
+    margin-top: 25px;
+    height: 30px;
+    width:175px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: blueviolet; 
+}
+
+.opensolve:hover{
+    background-color: yellowgreen;
+    transform: scale(1.1,1.1);
+}

@@ -1,0 +1,74 @@
+.closedcard{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to top, lightseagreen, pink);
+    border-radius: 5px;
+    height:390px;
+    box-shadow: 0px 4px 16px 0px;
+    text-align: center;
+    margin: 10px;
+    width: 350px;
+}
+
+.closeheading{
+    color:gold;
+}
+.closed{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pageimage{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr9t4GGsu0oHcGtmRQCw-kZk5jXYkKhHgSy3APzNqZ1atIardYQ6WqTbhBaJJAfXdvnQk&usqp=CAU");
+    background-size: cover;
+    /* background-color: blue; */
+    height:auto;
+    width:auto;
+    padding:30px;
+}
+
+.backdash{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.backdashbutton{
+    margin:30px;
+    height: 40px;
+    margin-right: 50px;
+    width:250px;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color:brown;
+}
+
+.backdashbutton:hover{
+    background-color: yellowgreen;
+    transform: scale(1.1,1.1);
+}
+
+.bolddata{
+    color:#01211d;
+    font-weight: bolder;
+}
+
+.deleted{
+    margin-top: 25px;
+    height: 30px;
+    width:80px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: blueviolet;
+}
+
+.deleted:hover{
+    background-color: yellowgreen;
+    transform: scale(1.1,1.1);
+}

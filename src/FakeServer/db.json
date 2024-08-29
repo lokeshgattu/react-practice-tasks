@@ -1,0 +1,633 @@
+{
+  "ContactsDetails": [
+    {
+      "cname": "anand",
+      "cno": "848937948",
+      "cemail": "anand@123",
+      "id": "f0fa"
+    },
+    {
+      "id": "9094",
+      "cname": "naveen",
+      "cemail": "naveen@123",
+      "cno": "9786574474"
+    },
+    {
+      "id": "fc17",
+      "cname": "lokesh",
+      "cemail": "lokesh@123",
+      "cno": "9003804225"
+    },
+    {
+      "id": "b515",
+      "cname": "ntr",
+      "cemail": "ntr@123",
+      "cno": "7468683"
+    },
+    {
+      "id": "dd85",
+      "cname": "Ravi",
+      "cemail": "navi@123",
+      "cno": "847837837"
+    },
+    {
+      "cname": "likhitha",
+      "cno": "739739638",
+      "cemail": "likhitha@123",
+      "id": "49aa"
+    },
+    {
+      "id": "32e9",
+      "cname": "teja",
+      "cemail": "teja@123",
+      "cno": "748963836"
+    },
+    {
+      "id": "ee4b",
+      "cname": "pavan",
+      "cemail": "pavan@123",
+      "cno": "648648647"
+    },
+    {
+      "id": "01f7",
+      "cname": "gana",
+      "cemail": "gana@123",
+      "cno": "73963863"
+    }
+  ],
+  "AdminCredentials": [
+    {
+      "username": "naveen",
+      "password": "marripati"
+    },
+    {
+      "username": "ravi",
+      "password": "bharti"
+    },
+    {
+      "username": "amardeep",
+      "password": "singh"
+    },
+    {
+      "username": "rishabh",
+      "password": "kumar"
+    },
+    {
+      "username": "lokesh",
+      "password": "gattu"
+    },
+    {
+      "username": "nikhil",
+      "password": "chowdary"
+    },
+    {
+      "id": "c38b",
+      "username": "anil",
+      "password": "kumar"
+    },
+    {
+      "id": "a158",
+      "username": "rajput",
+      "password": "bharti"
+    },
+    {
+      "id": "f9bb",
+      "username": "marripati",
+      "password": "naveen"
+    },
+    {
+      "id": "2d76",
+      "username": "anand",
+      "password": "vinayaka"
+    }
+  ],
+  "TicketsRaised": [
+    {
+      "id": "690b",
+      "ticketid": "1avc",
+      "ticketstamp": "7:00PM",
+      "priority": "Medium",
+      "ticketdescription": "Ticket created is not yet solved yet",
+      "sortpriority": "2",
+      "ticketstatus": "open"
+    },
+    {
+      "id": "1e00",
+      "ticketid": "7rbf",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Issue with login",
+      "sortpriority": "1",
+      "ticketstatus": "open"
+    },
+    {
+      "id": "dkvn",
+      "ticketid": "scnds",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Issue with login",
+      "sortpriority": "1",
+      "ticketstatus": "open"
+    },
+    {
+      "id": "danckovn",
+      "ticketid": "dcnvdnd",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Issue with login",
+      "sortpriority": "1",
+      "ticketstatus": "open"
+    },
+    {
+      "id": "dnividn",
+      "ticketid": "dnndiv",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Issue with login",
+      "sortpriority": "1",
+      "ticketstatus": "open"
+    },
+    {
+      "id": "dcndn",
+      "ticketid": "cdnnd",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Issue with login",
+      "sortpriority": "1",
+      "ticketstatus": "open"
+    },
+    {
+      "id": "cdnidn",
+      "ticketid": "dcncdn",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Issue with login",
+      "sortpriority": "1",
+      "ticketstatus": "open"
+    }
+  ],
+  "TicketsClosed": [
+    {
+      "id": "d212",
+      "ticketid": "12",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "Server is crashed",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T15:51:44.871Z"
+    },
+    {
+      "id": "c850",
+      "ticketid": "12",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "getting crashed",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:02:52.973Z"
+    },
+    {
+      "id": "e57e",
+      "ticketid": "12",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "solution is entered",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:11:29.765Z"
+    },
+    {
+      "id": "eff3",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "naveen is entered",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:15:36.494Z"
+    },
+    {
+      "id": "996f",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "naveen is entered",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:15:37.653Z"
+    },
+    {
+      "id": "c3ea",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "naveen is entered",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:15:40.053Z"
+    },
+    {
+      "id": "c5fc",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "is entered",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:15:46.013Z"
+    },
+    {
+      "id": "9c67",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "is entered",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:15:46.797Z"
+    },
+    {
+      "id": "eee5",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "testing",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:22:57.565Z"
+    },
+    {
+      "id": "f351",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "testing",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:22:58.477Z"
+    },
+    {
+      "id": "a875",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "testing the button",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:30:11.504Z"
+    },
+    {
+      "id": "bbc8",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "testing the id",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:31:00.107Z"
+    },
+    {
+      "id": "0140",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "ggg",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:32:03.201Z"
+    },
+    {
+      "id": "16e3",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "ffff",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:33:05.840Z"
+    },
+    {
+      "id": "6d7c",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "dddd",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:36:09.663Z"
+    },
+    {
+      "id": "85b0",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "jhhhh",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:38:00.065Z"
+    },
+    {
+      "id": "40bd",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "ssss",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:42:05.959Z"
+    },
+    {
+      "id": "9eab",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "kkkk",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:42:59.479Z"
+    },
+    {
+      "id": "80b3",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "llll",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:53:51.714Z"
+    },
+    {
+      "id": "d316",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "mmmm",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:55:18.279Z"
+    },
+    {
+      "id": "042d",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "pppp",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:56:13.615Z"
+    },
+    {
+      "id": "5953",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "ooooo",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:56:26.040Z"
+    },
+    {
+      "id": "b1ff",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "tttt",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:56:52.616Z"
+    },
+    {
+      "id": "63f7",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "uuuu",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:57:55.248Z"
+    },
+    {
+      "id": "d2fe",
+      "ticketid": "1",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "gggg",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T16:59:34.055Z"
+    },
+    {
+      "id": "3eba",
+      "ticketid": "1abc",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "hhhh",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T17:03:24.328Z"
+    },
+    {
+      "id": "8efc",
+      "ticketid": "1abc",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "lklk",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T17:04:12.320Z"
+    },
+    {
+      "id": "c165",
+      "ticketid": "1abc",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "tytyt",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T17:12:37.119Z"
+    },
+    {
+      "id": "9136",
+      "ticketid": "1abc",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "dfdfd",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T17:14:24.151Z"
+    },
+    {
+      "id": "ebf2",
+      "ticketid": "1abc",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "hsjhd",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T17:21:19.006Z"
+    },
+    {
+      "id": "d7f1",
+      "ticketid": "1abd",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "iiiii",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T17:28:48.023Z"
+    },
+    {
+      "id": "c14d",
+      "ticketid": "1abc",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "fdfdf",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T17:36:11.755Z"
+    },
+    {
+      "id": "98e4",
+      "ticketid": "1abc",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "fdfdf",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T17:36:13.035Z"
+    },
+    {
+      "id": "e827",
+      "ticketid": "1abc",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "fddgd",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T17:39:46.179Z"
+    },
+    {
+      "id": "e44b",
+      "ticketid": "1akc",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "jjjffjj",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "2024-08-26T17:43:38.239Z"
+    },
+    {
+      "id": "1035",
+      "ticketid": "1fbc",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "kndkdbv",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "Day:-1  Date:-26/7/2024  Time:-23:58:50"
+    },
+    {
+      "id": "1035",
+      "ticketid": "1fbc",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "dnfji",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "Day:-1  Date:-26/7/2024  Time:-23:59:16"
+    },
+    {
+      "id": "1035",
+      "ticketid": "1fbc",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "accsdokcsdvojsb",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "Day:-1  Date:-26/7/2024  Time:-23:59:52"
+    },
+    {
+      "id": "1035",
+      "ticketid": "1fbc",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "cxbjcdjidbcksd",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "Day:-2  Date:-27/7/2024  Time:-0:0:3"
+    },
+    {
+      "id": "1e9f",
+      "ticketid": "7rbf",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Issue with login",
+      "ticketsolution": "efndofnnwvno",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "Day:-2  Date:-27/7/2024  Time:-0:24:2"
+    },
+    {
+      "id": "1035",
+      "ticketid": "1fbc",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Critical",
+      "ticketdescription": "Not able to login through my login credentials",
+      "ticketsolution": "kkkkkkkk",
+      "sortpriority": "1",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "Day:-2  Date:-27/7/2024  Time:-9:26:23"
+    },
+    {
+      "id": "316b",
+      "ticketid": "1abc",
+      "ticketraisedtime": "12:00PM",
+      "priority": "Low",
+      "ticketdescription": "Page is not loading",
+      "ticketsolution": "low ticket",
+      "sortpriority": "3",
+      "ticketstatus": "closed",
+      "ticketclosedTime": "Day:-2  Date:-27/7/2024  Time:-9:58:21"
+    }
+  ]
+}

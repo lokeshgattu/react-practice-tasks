@@ -1,0 +1,65 @@
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.success-heading{
+    color: rgb(56, 87, 56);
+    font-size: 20px;
+}
+
+.form-container{
+    background-image: linear-gradient(rgb(112, 112, 245),rgb(215, 86, 226));
+    padding:30px;
+    border-radius: 6px;
+}
+.main-heading{
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+}
+.heading{
+    color: #ffffff;
+    font-size: 20px;
+}
+.text{
+    color: #ffffff;
+    font-size: 17px;
+    display: inline;
+}
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+}
+.button-container{
+    text-align: center;
+}
+.button{
+    border-width: 0px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgba(90, 90, 240, 0.842);
+    color: #ffffff;
+    font-size: 15px;
+}
+.card{
+    box-shadow: 0px 4px 16px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.card-heading{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.card-text{
+    color: #ffffff;
+    font-size: 15px;
+}

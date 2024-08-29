@@ -1,0 +1,89 @@
+.signuppage{
+    height: 100vh;
+    background-image: url("https://preview.redd.it/where-can-i-get-the-windows-vista-wallpaper-in-the-best-v0-1lu31x1angtb1.jpg?auto=webp&s=c4b8113476e2f6b6106aac36c6b88eb1b88868b0");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.errormsg{
+    background: linear-gradient(to bottom, black, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    font-weight: 900;
+    text-shadow: 1px 1px black;
+}
+
+.container{
+    margin-top:30px;
+    height: 300px;
+    width:300px;
+    background-image: linear-gradient(to right, rgb(134, 32, 134) , yellow);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 4px 16px 0px
+}
+
+.signupheading{
+    justify-content: center;
+    text-align: center;
+    color: hwb(300 1% 94%);
+    background: linear-gradient(to bottom, black, #035303);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#signupname{
+    border-radius: 5px;
+    width:275px;
+    height: 25px;
+}
+
+#signuppassword{
+    border-radius: 5px;
+    width:275px;
+    height: 25px;
+}
+
+#name:hover{
+    transform: scale(1.05,1.05);
+}
+
+#password:hover{
+    transform: scale(1.05,1.05);
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+}
+
+
+.createbutton{
+    height: 35px;
+    width:130px;
+    border-radius: 5px;
+    border-width:0px;
+    background-color: lightseagreen;
+    font-size: 15px;
+    color:black;
+    font-weight: bold;
+}
+
+.createbutton:hover{
+    background-color: yellowgreen;
+    transform: scale(1.1,1.1);
+}
+
+
+
+
+
+
